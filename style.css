@@ -1,0 +1,33 @@
+*{
+    font-family: ;
+}
+.color{
+    color: red;
+    font-size: 45px;
+    font-weight: 200;
+}
+
+.field, .field__del{
+    margin-top: 20px;
+    width: 1200px;
+    height: 600px;
+
+    border: 1px solid red;
+
+
+    position: relative;
+    top:0;
+    left:0;
+}
+
+.button__case{
+    width: 1200px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.button__case>button{
+    margin: 10px 100px;
+}
